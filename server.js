@@ -25,7 +25,6 @@ app.get('*', function(req, res) {
   res.sendFile(__dirname + '/build/index.html');
 });
 
-
 // Webpack Dev Server
 if (!process.env.PRODUCTION) {
   var webpack = require('webpack');
@@ -43,7 +42,6 @@ if (!process.env.PRODUCTION) {
     }
   });
 }
-
 
 // Express server
 var port = process.env.PORT || 8000;
