@@ -1,9 +1,12 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
+
+import Nav from '../../components/nav';
 
 export default class App extends Component {
   render() {
     return (
-      <div id="container">
+      <div id="content">
+        <Nav/>
         {this.props.children}
       </div>
     );

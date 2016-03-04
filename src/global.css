@@ -10,6 +10,8 @@ body {
   line-height: 1.3;
 }
 
-:global(#container) {
-  width: 100%;
+:global(.container) {
+  clear: fix;
+  max-width: $large;
+  margin: auto;
 }

@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
 import { browserHistory } from "react-router";
 import CSSModules from 'react-css-modules';
 
@@ -14,12 +14,10 @@ class About extends Component {
 
   render() {
     return (
-      <div className='container'>
-        <div styleName='content'>
+      <div className='about'>
+        <div className='container' styleName='content'>
           <h1 styleName='header'>About</h1>
           <p styleName='description'>React starter using ES6 – includes hot reloading for React and PostCSS</p>
-        </div>
-        <div styleName='content'>
           <Button styleName='button' onClick={this.home}>Return home</Button>
         </div>
       </div>

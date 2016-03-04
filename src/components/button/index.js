@@ -1,4 +1,4 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 
 import styles from "./styles.css";
@@ -16,7 +16,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  
+
 }
 
 export default CSSModules(Button, styles);
