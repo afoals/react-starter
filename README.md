@@ -1,9 +1,7 @@
 # React Starter
 #### Boilerplate for React – includes hot reloading for jsx and postcss.
 
-Initially based off of [Essential React](https://github.com/pheuter/essential-react), this has been tweaked to fit my needs and fixed to include hot reloading on style changes.
-
-Includes various PostCSS plugins such as a simple grid and cssnext.
+Includes various PostCSS plugins such as a simple grid.
 
 <br>
 
@@ -28,7 +26,7 @@ Start the local dev server:
 $ npm start
 ```
 
-Navigate to **http://localhost:8000/** to view the app.
+Navigate to **http://localhost:8080/** to view the app.
 
 <br>
 
@@ -41,13 +39,3 @@ $ npm run build
 **Input:** `src/app.js`
 
 **Output:** `build/app.js`
-
-<br>
-
-## Clean
-
-```sh
-$ npm run clean
-```
-
-**Input:** `build/app.js`

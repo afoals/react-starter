@@ -1,11 +1,20 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component, PropTypes } from 'react'
+import { Link } from 'react-router'
+import CSSModules from 'react-css-modules'
 
-export default class App extends Component {
+import styles from './styles.css'
+
+class App extends Component {
   render() {
     return (
-      <div id="container">
+      <div styleName='container'>
+        <h1>React App</h1>
+        <Link to='/'>Home</Link>
+
         {this.props.children}
       </div>
-    );
+    )
   }
 }
+
+export default CSSModules(App, styles)
