@@ -17,7 +17,7 @@ Includes various PostCSS plugins such as a simple grid.
 ## Getting Started
 
 ```sh
-$ npm install
+npm install
 ```
 
 Start the local dev server:
@@ -33,7 +33,7 @@ Navigate to **http://localhost:8080/** to view the app.
 ## Clean
 
 ```sh
-$ npm run clean
+npm run clean
 ```
 
 <br>
