@@ -23,19 +23,32 @@ $ npm install
 Start the local dev server:
 
 ```sh
-$ npm start
+npm start
 ```
 
 Navigate to **http://localhost:8080/** to view the app.
 
 <br>
 
+## Clean
+
+```sh
+$ npm run clean
+```
+
+<br>
+
 ## Build for Production
 
 ```sh
-$ npm run build
+npm run build
 ```
 
-**Input:** `src/app.js`
+<br>
 
-**Output:** `build/app.js`
+## Publish to Surge.sh
+Will require Surge to be installed globally.
+
+```sh
+npm run publish
+```
